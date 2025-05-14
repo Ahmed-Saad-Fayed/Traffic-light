@@ -1,42 +1,73 @@
-# 🚦 Arduino Traffic light  Project
+# 🚦 Arduino Traffic Light Project
+
+A simple Arduino-based project that simulates a **traffic light system** with user interaction via push buttons and numeric output on a **7-segment display**.
+
+---
 
 ## 📋 Project Overview
-This project is a simple Arduino-based control system featuring:
 
-A 7-segment display to show numbers.
+This project demonstrates basic **digital I/O control** using an **Arduino Nano**, suitable for beginners learning:
 
-LEDs (Red, Yellow, Green) for indicating states or signals.
+- 🔢 How to control a **7-segment display**
+- 🔘 How to use **push buttons** for user interaction
+- 💡 How to manage **multiple outputs (LEDs)**
 
-Two push buttons for input control 
+### 🔧 Key Features
 
-Built on a breadboard with an Arduino Nano.
+- 🟢🟡🔴 LED traffic light simulation (Red, Yellow, Green)  
+- 🧮 Displays numbers on a **7-segment display**  
+- 🎮 Two push buttons for manual control  
+- 🔌 Built on a **breadboard** for easy prototyping
 
-The setup demonstrates basic digital I/O control, suitable for learning:
-
-How to control a 7-segment display.
-
-How to use buttons for user interaction.
-
-How to manage multiple outputs (LEDs).
+---
 
 ## 🧰 Components Used
-1x Arduino Nano
 
-1x 7-segment display 
+- 1x **Arduino Nano**  
+- 1x **7-segment display**  
+- 6x **LEDs** (2 sets of Red, Yellow, Green)  
+- 2x **Push buttons**  
+- 6x **Resistors** (220Ω – 330Ω recommended)  
+- 1x **Breadboard**  
+- Jumper wires
 
-6x LEDs (2 sets of red, yellow, green)
+---
 
-2x Push buttons
+## ⚙️ How It Works
 
-6x Resistors for LEDs (220Ω – 330Ω recommended)
+- **Push Buttons**: Used to trigger events or switch modes  
+- **LEDs**: Simulate traffic light behavior and indicate status  
+- **7-Segment Display**: Shows numeric countdown or state indicator
 
-Breadboard & Jumper wires
+---
 
-## ⚙️ How it Works
-Buttons: Used to trigger events
+## 🔌 Circuit Simulation
 
-LEDs: Indicate certain statuses or modes 
+*![Simulation](https://github.com/user-attachments/assets/4e404c42-f937-4dfc-8d13-903c912749a6)*
 
-7-Segment Display: Shows numeric values.
+---
 
+## 🧪 Learning Objectives
 
+- Understand digital pin control using Arduino  
+- Interface and control a 7-segment display  
+- Debounce and handle button inputs  
+- Control multiple LEDs simultaneously
+
+---
+
+## 📎 Tools Used
+
+- 🛠️ **Arduino IDE** – For programming  
+- 🔌 **Breadboard setup** – For prototyping and testing
+
+---
+
+## 🚀 Getting Started
+
+1. Connect components as per schematic  
+2. Upload the Arduino sketch via Arduino IDE  
+3. Press buttons to interact with the system  
+4. Observe LEDs and 7-segment display behavior
+
+---
